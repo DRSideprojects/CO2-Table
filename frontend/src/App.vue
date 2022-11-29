@@ -1,60 +1,98 @@
 <template>
   <v-app>
-    <v-app-bar
-      app
-      color="primary"
-      dark
-    >
-      <div class="d-flex align-center">
-        <v-img
-          alt="Vuetify Logo"
-          class="shrink mr-2"
-          contain
-          src="https://cdn.vuetifyjs.com/images/logos/vuetify-logo-dark.png"
-          transition="scale-transition"
-          width="40"
-        />
-
-        <v-img
-          alt="Vuetify Name"
-          class="shrink mt-1 hidden-sm-and-down"
-          contain
-          min-width="100"
-          src="https://cdn.vuetifyjs.com/images/logos/vuetify-name-dark.png"
-          width="100"
-        />
-      </div>
-
-      <v-spacer></v-spacer>
-
-      <v-btn
-        href="https://github.com/vuetifyjs/vuetify/releases/latest"
-        target="_blank"
-        text
+  
+    <v-navigation-drawer app
+    v-model="drawer"
+      absolute
+      bottom
       >
-        <span class="mr-2">Latest Release</span>
-        <v-icon>mdi-open-in-new</v-icon>
-      </v-btn>
-    </v-app-bar>
+      <v-list>
+        <v-list-item
+          v-for="item in items"
+          :key="item.title"
+          link
+        >
+          <v-list-item-icon>
+            <v-icon>{{ item.icon }}</v-icon>
+          </v-list-item-icon>
 
+          <v-list-item-content>
+            <v-list-item-title>{{ item.title }}</v-list-item-title>
+          </v-list-item-content>
+        </v-list-item>
+      </v-list>
+    </v-navigation-drawer>
+
+    <v-app-bar app>
+      <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
+      <v-toolbar-title>CO² Tabelle e.V.</v-toolbar-title>
+    </v-app-bar>
+  
+    <!-- Sizes your content based upon application components -->
     <v-main>
-      <HelloWorld/>
+  
+      <!-- Provides the application the proper gutter -->
+      <v-container fluid>
+  
+        <!-- If using vue-router -->
+        <router-view></router-view>
+      </v-container>
     </v-main>
+  
+    <v-footer app class="footer">
+      <p>CO² Tabelle e.V. 2022 </p>
+      <a href="/datenschutz">Datenschutz</a>
+      <a href="/impressum">Impressum</a>
+    </v-footer>
   </v-app>
 </template>
 
+
 <script>
-import HelloWorld from './components/HelloWorld';
 
 export default {
   name: 'App',
 
   components: {
-    HelloWorld,
   },
 
   data: () => ({
-    //
+    drawer: true,
+    title: 'CO² Info Service',
+    group: null,
+    items: [
+          { title: 'Tabelle', icon: 'mdi-view-dashboard' },
+          { title: 'Impressum', icon: 'mdi-gavel' },
+        ],
   }),
+
+  watch: {
+    group () {
+      this.drawer = false
+    },
+  },
 };
 </script>
+
+<style lang="scss" scoped>
+.footer {
+  background: #677475;
+  color: white;
+  line-height: 80px;
+  display: block;
+  
+  
+  height: 80px;
+  text-align: center;
+
+  p {
+    display: inline-block;
+  }
+
+  a {
+    margin-left: 10px;
+    color: rgb(231, 215, 255);
+    text-decoration: none;
+  }
+}
+</style>
