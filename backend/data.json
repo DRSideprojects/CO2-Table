@@ -1,0 +1,12 @@
+[
+    {
+        "companyName": "TokTik Gmbh",
+        "country": "Germany",
+        "co2emissions": 10000
+    },
+    {
+        "companyName": "MokaFola Light Gmbh",
+        "country": "Germany",
+        "co2emissions": 10001
+    }
+]
