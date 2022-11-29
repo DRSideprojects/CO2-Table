@@ -1,12 +1,497 @@
 [
     {
-        "companyName": "TokTik Gmbh",
-        "country": "Germany",
-        "co2emissions": 10000
+      "companyName": "Zuvy",
+      "country": "Kiribati",
+      "co2emissions": 152
     },
     {
-        "companyName": "MokaFola Light Gmbh",
-        "country": "Germany",
-        "co2emissions": 10001
+      "companyName": "Quantasis",
+      "country": "Togo",
+      "co2emissions": 9514
+    },
+    {
+      "companyName": "Tellifly",
+      "country": "Libya",
+      "co2emissions": 7378
+    },
+    {
+      "companyName": "Mitroc",
+      "country": "Slovak Republic",
+      "co2emissions": 5397
+    },
+    {
+      "companyName": "Eplosion",
+      "country": "Cameroon",
+      "co2emissions": 7871
+    },
+    {
+      "companyName": "Verbus",
+      "country": "Andorra",
+      "co2emissions": 4489
+    },
+    {
+      "companyName": "Suremax",
+      "country": "Mexico",
+      "co2emissions": 3283
+    },
+    {
+      "companyName": "Tropolis",
+      "country": "Tokelau",
+      "co2emissions": 6853
+    },
+    {
+      "companyName": "Nurali",
+      "country": "Sweden",
+      "co2emissions": 6350
+    },
+    {
+      "companyName": "Centuria",
+      "country": "Mauritania",
+      "co2emissions": 8734
+    },
+    {
+      "companyName": "Cinaster",
+      "country": "S. Georgia and S. Sandwich Isls.",
+      "co2emissions": 2451
+    },
+    {
+      "companyName": "Tetak",
+      "country": "Madagascar",
+      "co2emissions": 9436
+    },
+    {
+      "companyName": "Xixan",
+      "country": "Morocco",
+      "co2emissions": 5638
+    },
+    {
+      "companyName": "Unq",
+      "country": "Bhutan",
+      "co2emissions": 3118
+    },
+    {
+      "companyName": "Automon",
+      "country": "Algeria",
+      "co2emissions": 6903
+    },
+    {
+      "companyName": "Biotica",
+      "country": "Iran",
+      "co2emissions": 1510
+    },
+    {
+      "companyName": "Geekology",
+      "country": "Chad",
+      "co2emissions": 8844
+    },
+    {
+      "companyName": "Enersol",
+      "country": "Mozambique",
+      "co2emissions": 9651
+    },
+    {
+      "companyName": "Providco",
+      "country": "Egypt",
+      "co2emissions": 3491
+    },
+    {
+      "companyName": "Cinesanct",
+      "country": "Chile",
+      "co2emissions": 3777
+    },
+    {
+      "companyName": "Xanide",
+      "country": "Cambodia",
+      "co2emissions": 9004
+    },
+    {
+      "companyName": "Virxo",
+      "country": "Pakistan",
+      "co2emissions": 5513
+    },
+    {
+      "companyName": "Harmoney",
+      "country": "Lebanon",
+      "co2emissions": 5268
+    },
+    {
+      "companyName": "Crustatia",
+      "country": "Swaziland",
+      "co2emissions": 3612
+    },
+    {
+      "companyName": "Signidyne",
+      "country": "United States",
+      "co2emissions": 1096
+    },
+    {
+      "companyName": "Prosure",
+      "country": "Gambia",
+      "co2emissions": 1512
+    },
+    {
+      "companyName": "Deviltoe",
+      "country": "Niue",
+      "co2emissions": 6997
+    },
+    {
+      "companyName": "Caxt",
+      "country": "Faroe Islands",
+      "co2emissions": 4253
+    },
+    {
+      "companyName": "Tingles",
+      "country": "Cuba",
+      "co2emissions": 1103
+    },
+    {
+      "companyName": "Parleynet",
+      "country": "Zambia",
+      "co2emissions": 2436
+    },
+    {
+      "companyName": "Flum",
+      "country": "San Marino",
+      "co2emissions": 9402
+    },
+    {
+      "companyName": "Idetica",
+      "country": "Burkina Faso",
+      "co2emissions": 2301
+    },
+    {
+      "companyName": "Cyclonica",
+      "country": "Guyana",
+      "co2emissions": 4049
+    },
+    {
+      "companyName": "Codax",
+      "country": "Anguilla",
+      "co2emissions": 5095
+    },
+    {
+      "companyName": "Zepitope",
+      "country": "Wallis and Futuna Islands",
+      "co2emissions": 4730
+    },
+    {
+      "companyName": "Irack",
+      "country": "Afghanistan",
+      "co2emissions": 662
+    },
+    {
+      "companyName": "Quility",
+      "country": "Belgium",
+      "co2emissions": 8066
+    },
+    {
+      "companyName": "Zidant",
+      "country": "Oman",
+      "co2emissions": 1161
+    },
+    {
+      "companyName": "Bisba",
+      "country": "Cayman Islands",
+      "co2emissions": 6336
+    },
+    {
+      "companyName": "Organica",
+      "country": "Djibouti",
+      "co2emissions": 6311
+    },
+    {
+      "companyName": "Noralex",
+      "country": "Reunion",
+      "co2emissions": 2975
+    },
+    {
+      "companyName": "Plexia",
+      "country": "Netherlands Antilles",
+      "co2emissions": 4310
+    },
+    {
+      "companyName": "Callflex",
+      "country": "Tonga",
+      "co2emissions": 5165
+    },
+    {
+      "companyName": "Twiggery",
+      "country": "US Minor Outlying Islands",
+      "co2emissions": 9280
+    },
+    {
+      "companyName": "Xleen",
+      "country": "Honduras",
+      "co2emissions": 7058
+    },
+    {
+      "companyName": "Ginkogene",
+      "country": "Finland",
+      "co2emissions": 3832
+    },
+    {
+      "companyName": "Neocent",
+      "country": "Palau",
+      "co2emissions": 1511
+    },
+    {
+      "companyName": "Austech",
+      "country": "Lithuania",
+      "co2emissions": 3303
+    },
+    {
+      "companyName": "Eweville",
+      "country": "Somalia",
+      "co2emissions": 5147
+    },
+    {
+      "companyName": "Recognia",
+      "country": "Nicaragua",
+      "co2emissions": 7140
+    },
+    {
+      "companyName": "Fuelton",
+      "country": "Lesotho",
+      "co2emissions": 7844
+    },
+    {
+      "companyName": "Zentia",
+      "country": "Bangladesh",
+      "co2emissions": 8560
+    },
+    {
+      "companyName": "Surelogic",
+      "country": "Moldova",
+      "co2emissions": 4558
+    },
+    {
+      "companyName": "Nurplex",
+      "country": "Fiji",
+      "co2emissions": 1122
+    },
+    {
+      "companyName": "Amril",
+      "country": "Sri Lanka",
+      "co2emissions": 5810
+    },
+    {
+      "companyName": "Zyple",
+      "country": "Marshall Islands",
+      "co2emissions": 8401
+    },
+    {
+      "companyName": "Tourmania",
+      "country": "Cook Islands",
+      "co2emissions": 7795
+    },
+    {
+      "companyName": "Lunchpod",
+      "country": "Luxembourg",
+      "co2emissions": 1666
+    },
+    {
+      "companyName": "Utarian",
+      "country": "Mayotte",
+      "co2emissions": 2616
+    },
+    {
+      "companyName": "Nexgene",
+      "country": "Trinidad and Tobago",
+      "co2emissions": 250
+    },
+    {
+      "companyName": "Knowlysis",
+      "country": "Philippines",
+      "co2emissions": 655
+    },
+    {
+      "companyName": "Omatom",
+      "country": "Tajikistan",
+      "co2emissions": 346
+    },
+    {
+      "companyName": "Manglo",
+      "country": "Singapore",
+      "co2emissions": 224
+    },
+    {
+      "companyName": "Mangelica",
+      "country": "Botswana",
+      "co2emissions": 8951
+    },
+    {
+      "companyName": "Progenex",
+      "country": "Albania",
+      "co2emissions": 7943
+    },
+    {
+      "companyName": "Zillacom",
+      "country": "Malaysia",
+      "co2emissions": 6982
+    },
+    {
+      "companyName": "Dogspa",
+      "country": "Zimbabwe",
+      "co2emissions": 4048
+    },
+    {
+      "companyName": "Opticon",
+      "country": "Viet Nam",
+      "co2emissions": 1975
+    },
+    {
+      "companyName": "Exovent",
+      "country": "Papua New Guinea",
+      "co2emissions": 2250
+    },
+    {
+      "companyName": "Pearlesex",
+      "country": "Macedonia",
+      "co2emissions": 8270
+    },
+    {
+      "companyName": "Buzzmaker",
+      "country": "Virgin Islands (US)",
+      "co2emissions": 716
+    },
+    {
+      "companyName": "Amtas",
+      "country": "Macau",
+      "co2emissions": 7915
+    },
+    {
+      "companyName": "Ronelon",
+      "country": "Romania",
+      "co2emissions": 8773
+    },
+    {
+      "companyName": "Jamnation",
+      "country": "Laos",
+      "co2emissions": 5300
+    },
+    {
+      "companyName": "Multron",
+      "country": "Cape Verde",
+      "co2emissions": 7283
+    },
+    {
+      "companyName": "Zialactic",
+      "country": "Haiti",
+      "co2emissions": 3839
+    },
+    {
+      "companyName": "Elpro",
+      "country": "Georgia",
+      "co2emissions": 3143
+    },
+    {
+      "companyName": "Sultraxin",
+      "country": "Virgin Islands (British)",
+      "co2emissions": 1713
+    },
+    {
+      "companyName": "Xylar",
+      "country": "Malawi",
+      "co2emissions": 5540
+    },
+    {
+      "companyName": "Geekus",
+      "country": "Mongolia",
+      "co2emissions": 7818
+    },
+    {
+      "companyName": "Comtest",
+      "country": "New Zealand",
+      "co2emissions": 2030
+    },
+    {
+      "companyName": "Kog",
+      "country": "East Timor",
+      "co2emissions": 2522
+    },
+    {
+      "companyName": "Fanfare",
+      "country": "Kyrgyzstan",
+      "co2emissions": 4484
+    },
+    {
+      "companyName": "Daycore",
+      "country": "Benin",
+      "co2emissions": 1317
+    },
+    {
+      "companyName": "Zorromop",
+      "country": "Yemen",
+      "co2emissions": 1445
+    },
+    {
+      "companyName": "Nipaz",
+      "country": "Kazakhstan",
+      "co2emissions": 7705
+    },
+    {
+      "companyName": "Wazzu",
+      "country": "France, Metropolitan",
+      "co2emissions": 9694
+    },
+    {
+      "companyName": "Bleeko",
+      "country": "Australia",
+      "co2emissions": 8236
+    },
+    {
+      "companyName": "Sentia",
+      "country": "Thailand",
+      "co2emissions": 4659
+    },
+    {
+      "companyName": "Fishland",
+      "country": "Niger",
+      "co2emissions": 1211
+    },
+    {
+      "companyName": "Enersave",
+      "country": "Bouvet Island",
+      "co2emissions": 7214
+    },
+    {
+      "companyName": "Exoswitch",
+      "country": "Liechtenstein",
+      "co2emissions": 5922
+    },
+    {
+      "companyName": "Terragen",
+      "country": "Barbados",
+      "co2emissions": 7468
+    },
+    {
+      "companyName": "Speedbolt",
+      "country": "Iceland",
+      "co2emissions": 3587
+    },
+    {
+      "companyName": "Malathion",
+      "country": "Aruba",
+      "co2emissions": 3375
+    },
+    {
+      "companyName": "Helixo",
+      "country": "Bahamas",
+      "co2emissions": 4054
+    },
+    {
+      "companyName": "Rodemco",
+      "country": "Paraguay",
+      "co2emissions": 471
+    },
+    {
+      "companyName": "Freakin",
+      "country": "Western Sahara",
+      "co2emissions": 4338
+    },
+    {
+      "companyName": "Sportan",
+      "country": "Sudan",
+      "co2emissions": 3178
     }
-]
+  ]
