@@ -18,11 +18,7 @@
 
     <v-app-bar app>
       <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
-      <v-img
-      :aspect-ratio="4/1"
-      class="logo"
-      src="https://picsum.photos/200/50"
-    ></v-img>
+      <div class="img"></div>
       <v-toolbar-title>CO² Tabelle e.V.</v-toolbar-title>
     </v-app-bar>
 
@@ -87,5 +83,14 @@ export default {
     color: rgb(231, 215, 255);
     text-decoration: none;
   }
+}
+
+.img {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: orange;
+  border-radius: 999px;
+  margin-left: 10px;
 }
 </style>

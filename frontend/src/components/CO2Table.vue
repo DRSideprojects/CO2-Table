@@ -20,8 +20,6 @@
 </template>
 
 <script>
-import axios from 'axios';
-
 export default {
   name: "CO2Table",
 
@@ -36,11 +34,20 @@ export default {
     search: '',
   }),
   beforeMount () {
-    axios
-      .get('/api/data')
-      .then(response => {
-        this.items = response.data;
-      })
+    fetch('/api/data', {
+      method: 'GET',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      cache: 'no-cache'
+    })
+    .then((response) => response.json())
+    .then(response => {
+      this.items = response;
+    })
+    .catch(error => {
+      console.error(error);
+    })
   }
 };
 </script>
